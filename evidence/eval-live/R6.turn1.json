@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "d5e0b86a-ac2b-4809-94f5-af7dc2e3a90d",
+        "isContentSafe": true,
+        "message": "To start your return for order 00000999, I need the item description and confirmation that the reason for return is \"broken.\" Please provide the name or description of the item you want to return from this order.",
+        "id": "06476d2a-01ba-4f8b-9981-f886c23e8c5c",
+        "metrics": {},
+        "planId": "d5e0b86a-ac2b-4809-94f5-af7dc2e3a90d",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f3c-b65c-79f9-b6a1-edfc8bd5e053"
+  },
+  "warnings": []
+}

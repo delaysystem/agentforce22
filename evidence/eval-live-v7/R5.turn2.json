@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "c65eafc2-6426-4b1a-93af-dc495644a196",
+        "isContentSafe": true,
+        "message": "I've noted that you want to return the jacket from order 00000109 because you ordered the wrong size. I will now check the return eligibility and begin the return process for you.\n\nWould you like to exchange it for a different size or just process a return for a refund?",
+        "id": "2b00b63e-2dc5-494d-bd38-db6a0980f816",
+        "metrics": {},
+        "planId": "c65eafc2-6426-4b1a-93af-dc495644a196",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18fa5-6cd3-77ce-8b6e-cec246393217"
+  },
+  "warnings": []
+}

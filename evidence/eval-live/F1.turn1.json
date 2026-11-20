@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "b9b0a3b6-90c2-4e03-bd11-045fd90c2884",
+        "isContentSafe": true,
+        "message": "I am unable to access the return window information at this moment due to a technical issue. Would you like to try again later, or is there anything else I can help you with regarding return policies?",
+        "id": "d075f207-2f75-4506-bf62-43abfecbd38b",
+        "metrics": {},
+        "planId": "b9b0a3b6-90c2-4e03-bd11-045fd90c2884",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f3d-09e8-7e65-bcd3-4be2f3534e89"
+  },
+  "warnings": []
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Demo project in a Salesforce demo org, test data only. Published return-policy content the agent answers from (replaces Knowledge lookup: the Einstein Agent license cannot access Knowledge__kav).</description>
+    <label>Return Policy</label>
+    <pluralLabel>Return Policy Entries</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

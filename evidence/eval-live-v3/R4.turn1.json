@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "1c34ed44-e91b-4221-aee3-eac55c47f539",
+        "isContentSafe": true,
+        "message": "I need some additional details to check if the display stand from order 00000114 is eligible for return. Can you please tell me the reason for your return?",
+        "id": "2124c655-a386-4dee-aac7-c44098c6b8d3",
+        "metrics": {},
+        "planId": "1c34ed44-e91b-4221-aee3-eac55c47f539",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f8c-5fbd-7130-a8c2-cc4f6b2289f1"
+  },
+  "warnings": []
+}

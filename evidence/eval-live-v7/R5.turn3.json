@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "4939c2d6-a1fb-4354-b775-ca607ebeedb0",
+        "isContentSafe": true,
+        "message": "Your request to return the jacket from order 00000109 due to ordering the wrong size is being processed. You do not want an exchange, just a return for a refund.\n\nYou will receive a return reference number and instructions soon. Is there anything else you would like help with regarding this return or any other order?",
+        "id": "83b40030-820e-41cf-ad89-de38b85ec5ea",
+        "metrics": {},
+        "planId": "4939c2d6-a1fb-4354-b775-ca607ebeedb0",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18fa5-6cd3-77ce-8b6e-cec246393217"
+  },
+  "warnings": []
+}

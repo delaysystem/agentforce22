@@ -1,0 +1,50 @@
+{
+  "case": "S5",
+  "sessionId": "01a18f90-52c8-72c5-93e3-ae91028b09ea",
+  "utterances": [
+    "Where is my package?",
+    "It is 00000109."
+  ],
+  "t1": {
+    "status": 0,
+    "result": {
+      "messages": [
+        {
+          "type": "Inform",
+          "feedbackId": "01004c9c-dd96-45f7-b767-1c9d38ad584e",
+          "isContentSafe": true,
+          "message": "To check the status of your package, I will need your order number or the account ID associated with your purchase. Could you please provide one of these details?",
+          "id": "7f9abf24-ce8a-48d1-a473-0f23c9113b92",
+          "metrics": {},
+          "planId": "01004c9c-dd96-45f7-b767-1c9d38ad584e",
+          "result": [],
+          "citedReferences": []
+        }
+      ],
+      "agentApiName": "Service_Order_Returns_Agent",
+      "sessionId": "01a18f90-52c8-72c5-93e3-ae91028b09ea"
+    },
+    "warnings": []
+  },
+  "t2": {
+    "status": 0,
+    "result": {
+      "messages": [
+        {
+          "type": "Inform",
+          "feedbackId": "3353908c-8026-4245-b1c8-023509449144",
+          "isContentSafe": true,
+          "message": "Your package with order number 00000109 is currently in transit with UPS. The estimated delivery date is November 3, 2026. You can track your package using this link: URL_Redacted.\n\nWould you like more details about your shipment or need help with anything else?",
+          "id": "85a4f3bf-9e7c-41d5-b12b-565ffdd61688",
+          "metrics": {},
+          "planId": "3353908c-8026-4245-b1c8-023509449144",
+          "result": [],
+          "citedReferences": []
+        }
+      ],
+      "agentApiName": "Service_Order_Returns_Agent",
+      "sessionId": "01a18f90-52c8-72c5-93e3-ae91028b09ea"
+    },
+    "warnings": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "a991670e-0073-4b13-a28e-410ff6f46d2c",
+        "isContentSafe": true,
+        "message": "Your return request for the solar panel from order 00000110 has been created. Your reference number is RR-0003.\n\nIs there anything else I can assist you with regarding your return or any other order?",
+        "id": "51cf8feb-103c-4032-9842-631924252a17",
+        "metrics": {},
+        "planId": "a991670e-0073-4b13-a28e-410ff6f46d2c",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f3b-014a-7e7b-a4c5-0c9eaefc976f"
+  },
+  "warnings": []
+}

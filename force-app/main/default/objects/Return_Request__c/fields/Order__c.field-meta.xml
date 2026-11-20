@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Order__c</fullName>
+    <description>Demo: the order being returned from. Always set by the Create Return Request flow.</description>
+    <externalId>false</externalId>
+    <label>Order</label>
+    <referenceTo>Order</referenceTo>
+    <relationshipLabel>Return Requests</relationshipLabel>
+    <relationshipName>Return_Requests</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

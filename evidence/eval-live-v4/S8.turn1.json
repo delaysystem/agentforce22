@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "79730a02-0a02-4beb-93d0-de8544063fbc",
+        "isContentSafe": true,
+        "message": "Order 00000111 was delivered on August 16, 2026 by DHL. It is no longer on its way. If you need the tracking link or have more questions about this order, let me know!",
+        "id": "8796f3fe-8144-4ddb-9ac8-75123d189069",
+        "metrics": {},
+        "planId": "79730a02-0a02-4beb-93d0-de8544063fbc",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f91-c29a-78f6-974b-dcec671dca17"
+  },
+  "warnings": []
+}

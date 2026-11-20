@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "36468088-d133-4fc9-ba56-81495071464b",
+        "isContentSafe": true,
+        "message": "I could not find order number 00000999. Please check the order number and provide the correct one so I can help you with your return request. Do you have the order confirmation or another way to verify the order number?",
+        "id": "e9f14997-d295-4d8e-bd86-11775b5e2141",
+        "metrics": {},
+        "planId": "36468088-d133-4fc9-ba56-81495071464b",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18fa5-b88d-73d7-bded-9df406809437"
+  },
+  "warnings": []
+}

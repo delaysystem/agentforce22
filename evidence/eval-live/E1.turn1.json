@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "fe430ddc-4a7b-4b46-a43b-1c717d2da585",
+        "isContentSafe": true,
+        "message": "I will transfer your conversation to a live human agent now. Please hold while I connect you. Is there anything specific you would like the agent to know before I transfer you?",
+        "id": "b513effb-caaf-4422-a34b-265568e7387e",
+        "metrics": {},
+        "planId": "fe430ddc-4a7b-4b46-a43b-1c717d2da585",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f3e-4058-7c11-ac95-12f4820ccc1e"
+  },
+  "warnings": []
+}

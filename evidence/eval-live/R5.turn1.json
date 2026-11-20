@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "4b6051f0-6d70-43cd-ae39-25186d1cfa41",
+        "isContentSafe": true,
+        "message": "Your order 00000109 is currently in transit with UPS and is estimated to arrive on 2026-11-03. Since it has not yet been delivered, you may need to wait until it arrives to begin a return, as most carriers and stores process returns after delivery.\n\nWould you like information on how to return the order once it arrives, or do you need help with canceling the shipment before delivery? Let me know how you would like to proceed.",
+        "id": "83777399-8576-4b50-b4d9-89825c7d0607",
+        "metrics": {},
+        "planId": "4b6051f0-6d70-43cd-ae39-25186d1cfa41",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f3c-5874-74ba-b272-8356f815ca85"
+  },
+  "warnings": []
+}

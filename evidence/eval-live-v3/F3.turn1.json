@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "6da7c670-20b2-44e3-9f82-d8beba8950f0",
+        "isContentSafe": true,
+        "message": "I could not find a published policy entry regarding returns for Final Sale items. Would you like to speak with a human agent for further assistance on this topic?",
+        "id": "35b6ed3a-ecb1-44dd-a26d-53269f22853e",
+        "metrics": {},
+        "planId": "6da7c670-20b2-44e3-9f82-d8beba8950f0",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f8a-3fb3-7558-a26d-597ddb111c43"
+  },
+  "warnings": []
+}

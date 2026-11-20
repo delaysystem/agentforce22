@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "486c7a79-ab09-475c-9c9f-6691c26e4f50",
+        "isContentSafe": true,
+        "message": "To start a return, share your order number, the item you want to return, and the reason for the return. We will check if you are within the 30-day return window and then create your return with a reference number. (Source: How do I start a return?)\n\nWould you like to begin the return process now? If so, please provide your order number, the item, and your reason for returning it.",
+        "id": "f0c8eb28-3306-4e1f-9a0d-504b52f648d7",
+        "metrics": {},
+        "planId": "486c7a79-ab09-475c-9c9f-6691c26e4f50",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f9b-d16a-72ce-902d-bac554477ec6"
+  },
+  "warnings": []
+}

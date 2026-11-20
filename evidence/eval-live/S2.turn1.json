@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "a5bd832b-1d4f-40a6-9785-c13e06a39aad",
+        "isContentSafe": true,
+        "message": "Order 00000110 was delivered on 2026-10-20 by FedEx. If you need the tracking link or more details, please let me know. Do you have any other orders you would like to check?",
+        "id": "ec0746b6-5e51-42c4-8824-a417cf3e9370",
+        "metrics": {},
+        "planId": "a5bd832b-1d4f-40a6-9785-c13e06a39aad",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f38-fc97-71af-8087-2089a3548777"
+  },
+  "warnings": []
+}

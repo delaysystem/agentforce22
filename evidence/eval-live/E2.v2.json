@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "fe86a621-0562-48df-821f-723cb3f2b295",
+        "isContentSafe": true,
+        "message": "To help you with the return, I need to know which item from order 00000113 arrived broken and a brief description of the issue. Could you please provide the item name and confirm that it was received broken?",
+        "id": "fa3a3118-4968-4640-a992-837244e43fc6",
+        "metrics": {},
+        "planId": "fe86a621-0562-48df-821f-723cb3f2b295",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f49-2a0b-7772-9657-b15099747866"
+  },
+  "warnings": []
+}

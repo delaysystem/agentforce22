@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "26e143aa-881d-4d04-93d8-3a74b3b94e33",
+        "isContentSafe": true,
+        "message": "I am unable to access the return policy details for Final Sale items at the moment due to a system issue. Would you like to try again later or need help with another return policy question?",
+        "id": "6b854194-95bd-40eb-906a-ee544215b43d",
+        "metrics": {},
+        "planId": "26e143aa-881d-4d04-93d8-3a74b3b94e33",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f3d-a014-7203-bb8c-a47ad0f5b423"
+  },
+  "warnings": []
+}

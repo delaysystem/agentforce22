@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "75ffcafe-74dc-4d0f-8e71-7659b8d4fd3d",
+        "isContentSafe": true,
+        "message": "Thank you for your request. I am transferring you to a manager now. Is there anything you would like them to know before I connect you?",
+        "id": "11f55832-4c43-4a1d-965d-75a8b1f9a466",
+        "metrics": {},
+        "planId": "75ffcafe-74dc-4d0f-8e71-7659b8d4fd3d",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f8b-7c89-73e7-8d6f-fda8dd855966"
+  },
+  "warnings": []
+}

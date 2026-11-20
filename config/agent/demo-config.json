@@ -1,0 +1,16 @@
+{
+  "demoLabel": "Demo project in a Salesforce demo org, test data only, not a client project.",
+  "returnWindowDays": 30,
+  "returnWindowOrigin": "Brief: Start a Return topic explains the return window; 30 days from delivery is the demo policy. Single source — Flow constant Return_Window_Days and seed data must match this value.",
+  "returnWindowBasis": "Order.Delivered_Date__c (custom demo field); falls back to Order.EffectiveDate when empty.",
+  "nonReturnableProductTypes": ["Final Sale"],
+  "nonReturnableOrigin": "Brief requires eligibility by order date and product type. Product2.Family value 'Final Sale' marks demo items excluded from returns; Create_Return_Request flow enforces it. Seed data includes one such order.",
+  "escalationTriggers": [
+    "customer angry",
+    "customer asks for a manager",
+    "order marked lost or damaged"
+  ],
+  "escalationOrigin": "Brief guardrails section.",
+  "targetOrgAlias": "sdolite1",
+  "sourceApiVersion": "68.0"
+}

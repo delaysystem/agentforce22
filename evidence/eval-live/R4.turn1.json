@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "57194146-cfff-4fd8-ba02-c5cefbc5c6e0",
+        "isContentSafe": true,
+        "message": "The display stand from order 00000114 is marked as Final Sale and cannot be returned. Would you like to speak with a human agent for further assistance?",
+        "id": "99485f72-abea-4f6a-a5dd-b306476b19a0",
+        "metrics": {},
+        "planId": "57194146-cfff-4fd8-ba02-c5cefbc5c6e0",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f3c-036f-7a74-b78b-64bb65176f06"
+  },
+  "warnings": []
+}

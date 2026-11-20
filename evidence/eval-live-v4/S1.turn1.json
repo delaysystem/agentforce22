@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "99ac4682-22e2-499a-a44a-f8be602187a9",
+        "isContentSafe": true,
+        "message": "Your order 00000109 is currently in transit with UPS. The estimated delivery date is November 3, 2026. You can track your shipment using this link: URL_Redacted.\n\nWould you like more details or help with anything else?",
+        "id": "2243335e-d78b-43a2-9214-e938712695d1",
+        "metrics": {},
+        "planId": "99ac4682-22e2-499a-a44a-f8be602187a9",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f90-02fb-7694-856c-f4854fdf7614"
+  },
+  "warnings": []
+}

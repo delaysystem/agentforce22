@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "7b7fd393-830e-48c9-b8fc-d7d3077a4d29",
+        "isContentSafe": true,
+        "message": "To help with your return for order 00000111, could you please tell me which specific item from this order you would like to return?",
+        "id": "0328ef1a-b3b2-40f5-af59-a1815ca3e605",
+        "metrics": {},
+        "planId": "7b7fd393-830e-48c9-b8fc-d7d3077a4d29",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f92-6427-7c04-b225-7c0696afa0f2"
+  },
+  "warnings": []
+}

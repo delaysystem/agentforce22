@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "2092fb61-0a26-4a8b-a0b3-4486ac29e512",
+        "isContentSafe": true,
+        "message": "There was an issue processing your return request for the solar panel from order 00000110. I am unable to complete the return at this time due to a system error.\n\nWould you like me to connect you with a live agent for further assistance?",
+        "id": "09754d61-bee0-4db2-9ff9-72146eccc41f",
+        "metrics": {},
+        "planId": "2092fb61-0a26-4a8b-a0b3-4486ac29e512",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f28-1df5-786c-8351-8c4ea82e94e6"
+  },
+  "warnings": []
+}

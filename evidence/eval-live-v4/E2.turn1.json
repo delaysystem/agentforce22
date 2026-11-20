@@ -1,0 +1,28 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "",
+        "isContentSafe": true,
+        "message": "One moment while I connect you to the next available service representative.",
+        "id": "20fd76c9-beca-4773-8b11-9a79e1f8c58c",
+        "metrics": {},
+        "planId": "",
+        "result": [],
+        "citedReferences": []
+      },
+      {
+        "type": "Escalate",
+        "feedbackId": "1d9a44aa-f352-42a6-a393-184574b38bbf",
+        "targets": [],
+        "id": "934013e1-d2b8-4bed-b426-92758054408c",
+        "metrics": {}
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f95-3ee2-7a07-9d41-61d77cbbf67a"
+  },
+  "warnings": []
+}

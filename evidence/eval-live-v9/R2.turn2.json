@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "39e975df-42fd-45c6-87a9-ae3d71cfa881",
+        "isContentSafe": true,
+        "message": "Your order 00000111 was delivered 76 days ago, which is outside the standard 30-day return window. I have escalated your request to a human agent for further review.\n\nIs there anything else I can help you with while you wait for the agent?",
+        "id": "7aa0a065-2651-4189-94ae-4ea718f8cf1c",
+        "metrics": {},
+        "planId": "39e975df-42fd-45c6-87a9-ae3d71cfa881",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18fb0-d64a-704b-8f29-e726c609619b"
+  },
+  "warnings": []
+}

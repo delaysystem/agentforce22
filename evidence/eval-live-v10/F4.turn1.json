@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "f308aea0-1e1a-46cc-bc4e-ae676e53d411",
+        "isContentSafe": true,
+        "message": "I could not find a published policy entry regarding the warranty on teleporters. For specific information about teleporter warranties, a human agent will be able to assist you further.\n\nIs there anything else I can help you with regarding return policies?",
+        "id": "a7f8275c-cd10-49cf-9d29-db1612090216",
+        "metrics": {},
+        "planId": "f308aea0-1e1a-46cc-bc4e-ae676e53d411",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18fb9-f04e-79aa-bb7c-a390e3671f57"
+  },
+  "warnings": []
+}

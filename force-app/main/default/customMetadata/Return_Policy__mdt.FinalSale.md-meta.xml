@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <label>Final Sale Exclusion</label>
+    <protected>false</protected>
+    <values>
+        <field>Answer__c</field>
+        <value xsi:type="xsd:string">DEMO: Final Sale items cannot be returned. If that looks wrong on your order, ask for a human agent.</value>
+    </values>
+    <values>
+        <field>Keywords__c</field>
+        <value xsi:type="xsd:string">final sale, non-returnable, cannot return, not eligible, excluded, no returns, Final Sale item, return a Final Sale item, Can I return a Final Sale item</value>
+    </values>
+    <values>
+        <field>Title__c</field>
+        <value xsi:type="xsd:string">Which items cannot be returned?</value>
+    </values>
+</CustomMetadata>

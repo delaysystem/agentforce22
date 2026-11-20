@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "4331a4dd-b614-48bf-8e3f-4933a369c6e1",
+        "isContentSafe": true,
+        "message": "You ordered a jacket in the wrong size. Since the order has not arrived yet, you will need to wait until you receive the jacket before starting a return or exchange.\n\nIf you would like, I can help you track your order or provide details about the return and exchange policy. Would you like to do that?",
+        "id": "6b35f9c6-c10a-456c-aeba-41cd83aa1d66",
+        "metrics": {},
+        "planId": "4331a4dd-b614-48bf-8e3f-4933a369c6e1",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18fb1-e2b1-772c-b66e-7023df25b013"
+  },
+  "warnings": []
+}

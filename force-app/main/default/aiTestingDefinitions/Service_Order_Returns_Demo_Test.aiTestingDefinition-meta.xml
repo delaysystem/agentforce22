@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AiTestingDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Demo org, test data only. 20 scripted conversations.</description>
+    <name>Service_Order_Returns_Demo_Test</name>
+    <subjectName>Service_Order_Returns_Agent</subjectName>
+    <subjectType>AGENT</subjectType>
+    <subjectVersion>v1</subjectVersion>
+    <testCase>
+        <number>1</number>
+        <inputs>
+            <utterance>Where is my order 00000109?</utterance>
+        </inputs>
+        <scorer>
+            <name>topic_sequence_match</name>
+            <expectedValue>order_status</expectedValue>
+        </scorer>
+        <scorer>
+            <name>action_sequence_match</name>
+            <expectedValue>get_order_details</expectedValue>
+        </scorer>
+        <scorer>
+            <name>response_match</name>
+            <expectedValue>Agent answers In Transit via UPS with the delivery estimate and tracking text.</expectedValue>
+        </scorer>
+    </testCase>
+    <testCase>
+        <number>2</number>
+        <inputs>
+            <utterance>Has order 00000110 arrived?</utterance>
+        </inputs>
+        <scorer>
+            <name>topic_sequence_match</name>
+            <expectedValue>order_status</expectedValue>
+        </scorer>
+        <scorer>
+            <name>action_sequence_match</name>
+            <expectedValue>get_order_details</expectedValue>
+        </scorer>
+        <scorer>
+            <name>response_match</name>
+            <expectedValue>Agent confirms the order was delivered by FedEx with the delivered date.</expectedValue>
+        </scorer>
+    </testCase>
+    <testCase>
+        <number>3</number>
+        <inputs>
+            <utterance>Can you track order 00000115 for me?</utterance>
+        </inputs>
+        <scorer>
+            <name>topic_sequence_match</name>
+            <expectedValue>order_status</expectedValue>
+        </scorer>
+        <scorer>
+            <name>action_sequence_match</name>
+            <expectedValue>get_order_details</expectedValue>
+        </scorer>
+        <scorer>
+            <name>response_match</name>
+            <expectedValue>Agent says the order is still processing without inventing a carrier or tracking link.</expectedValue>
+        </scorer>
+    </testCase>
+    <testCase>
+        <number>4</number>
+        <inputs>
+            <utterance>What is the status of order 00000999?</utterance>
+        </inputs>
+        <scorer>
+            <name>topic_sequence_match</name>
+            <expectedValue>order_status</expectedValue>
+        </scorer>
+        <scorer>
+            <name>action_sequence_match</name>
+            <expectedValue>get_order_details</expectedValue>
+        </scorer>
+        <scorer>
+            <name>response_match</name>
+            <expectedValue>Agent plainly says the order was not found and asks to check the number.</expectedValue>
+        </scorer>
+    </testCase>
+    <testCase>
+        <number>5</number>
+        <inputs>
+            <utterance>Where is my package?</utterance>
+        </inputs>
+        <scorer>
+            <name>topic_sequence_match</name>
+            <expectedValue>order_status</expectedValue>
+        </scorer>
+        <scorer>
+            <name>response_match</name>
+            <expectedValue>Agent asks for the order number without calling any action or inventing order data.</expectedValue>
+        </scorer>
+    </testCase>
+    <testCase>
+        <number>6</number>
+        <inputs>
+            <utterance>When will order 00000109 arrive?</utterance>
+        </inputs>
+        <scorer>
+            <name>topic_sequence_match</name>
+            <expectedValue>order_status</expectedValue>
+        </scorer>
+        <scorer>
+            <name>action_sequence_match</name>
+            <expectedValue>get_order_details</expectedValue>
+        </scorer>
+        <scorer>
+            <name>response_match</name>
+            <expectedValue>Agent gives the expected delivery date from the record.</expectedValue>
+        </scorer>
+    </testCase>
+    <testCase>
+        <number>7</number>
+        <inputs>
+            <utterance>Who delivered my order 00000110?</utterance>
+        </inputs>
+        <scorer>
+            <name>topic_sequence_match</name>
+            <expectedValue>order_status</expectedValue>
+        </scorer>
+        <scorer>
+            <name>action_sequence_match</name>
+            <expectedValue>get_order_details</expectedValue>
+        </scorer>
+        <scorer>
+            <name>response_match</name>
+            <expectedValue>Agent names FedEx as the carrier.</expectedValue>
+        </scorer>
+    </testCase>
+    <testCase>
+        <number>8</number>
+        <inputs>
+            <utterance>Is order 00000111 still on its way?</utterance>
+        </inputs>
+        <scorer>
+            <name>topic_sequence_match</name>
+            <expectedValue>order_status</expectedValue>
+        </scorer>
+        <scorer>
+            <name>action_sequence_match</name>
+            <expectedValue>get_order_details</expectedValue>
+        </scorer>
+        <scorer>
+            <name>response_match</name>
+            <expectedValue>Agent says the order was already delivered with its date.</expectedValue>
+        </scorer>
+    </testCase>
+    <testCase>
+        <number>9</number>
+        <inputs>
+            <utterance>I want to return the solar panel from order 00000110, it arrived scratched.</utterance>
+        </inputs>
+        <scorer>
+            <name>topic_sequence_match</name>
+            <expectedValue>start_return</expectedValue>
+        </scorer>
+        <scorer>
+            <name>action_sequence_match</name>
+            <expectedValue>create_return_request</expectedValue>
+        </scorer>
+        <scorer>
+            <name>response_match</name>
+            <expectedValue>Agent creates the return and gives the exact reference number from the action.</expectedValue>
+        </scorer>
+    </testCase>
+    <testCase>
+        <number>10</number>
+        <inputs>
+            <utterance>I would like to return order 00000111, I changed my mind.</utterance>
+        </inputs>
+        <scorer>
+            <name>topic_sequence_match</name>
+            <expectedValue>start_return</expectedValue>
+        </scorer>
+        <scorer>
+            <name>action_sequence_match</name>
+            <expectedValue>create_return_request</expectedValue>
+        </scorer>
+        <scorer>
+            <name>response_match</name>
+            <expectedValue>Agent explains the 30-day window and escalates without creating a return.</expectedValue>
+        </scorer>
+    </testCase>
+    <testCase>
+        <number>11</number>
+        <inputs>
+            <utterance>Order 00000112 never arrived, I want to return it.</utterance>
+        </inputs>
+        <scorer>
+            <name>topic_sequence_match</name>
+            <expectedValue>start_return</expectedValue>
+        </scorer>
+        <scorer>
+            <name>action_sequence_match</name>
+            <expectedValue>create_return_request</expectedValue>
+        </scorer>
+        <scorer>
+            <name>response_match</name>
+            <expectedValue>Agent escalates immediately for the lost order without creating a return.</expectedValue>
+        </scorer>
+    </testCase>
+    <testCase>
+        <number>12</number>
+        <inputs>
+            <utterance>Can I return the display stand from order 00000114?</utterance>
+        </inputs>
+        <scorer>
+            <name>topic_sequence_match</name>
+            <expectedValue>start_return</expectedValue>
+        </scorer>
+        <scorer>
+            <name>action_sequence_match</name>
+            <expectedValue>create_return_request</expectedValue>
+        </scorer>
+        <scorer>
+            <name>response_match</name>
+            <expectedValue>Agent explains Final Sale items cannot be returned and escalates without creating.</expectedValue>
+        </scorer>
+    </testCase>
+    <testCase>
+        <number>13</number>
+        <inputs>
+            <utterance>I want to return order 00000109 before it arrives.</utterance>
+        </inputs>
+        <scorer>
+            <name>topic_sequence_match</name>
+            <expectedValue>start_return</expectedValue>
+        </scorer>
+        <scorer>
+            <name>action_sequence_match</name>
+            <expectedValue>create_return_request</expectedValue>
+        </scorer>
+        <scorer>
+            <name>response_match</name>
+            <expectedValue>Agent explains returns open once the order is delivered and creates nothing.</expectedValue>
+        </scorer>
+    </testCase>
+    <testCase>
+        <number>14</number>
+        <inputs>
+            <utterance>Please return order 00000999, it is broken.</utterance>
+        </inputs>
+        <scorer>
+            <name>topic_sequence_match</name>
+            <expectedValue>start_return</expectedValue>
+        </scorer>
+        <scorer>
+            <name>action_sequence_match</name>
+            <expectedValue>create_return_request</expectedValue>
+        </scorer>
+        <scorer>
+            <name>response_match</name>
+            <expectedValue>Agent plainly says the order was not found and creates nothing.</expectedValue>
+        </scorer>
+    </testCase>
+    <testCase>
+        <number>15</number>
+        <inputs>
+            <utterance>What is the return window?</utterance>
+        </inputs>
+        <scorer>
+            <name>topic_sequence_match</name>
+            <expectedValue>return_policy_faq</expectedValue>
+        </scorer>
+        <scorer>
+            <name>action_sequence_match</name>
+            <expectedValue>search_policy_articles</expectedValue>
+        </scorer>
+        <scorer>
+            <name>response_match</name>
+            <expectedValue>Agent answers 30 days from delivery and cites the article title.</expectedValue>
+        </scorer>
+    </testCase>
+    <testCase>
+        <number>16</number>
+        <inputs>
+            <utterance>How do I start a return?</utterance>
+        </inputs>
+        <scorer>
+            <name>topic_sequence_match</name>
+            <expectedValue>return_policy_faq</expectedValue>
+        </scorer>
+        <scorer>
+            <name>action_sequence_match</name>
+            <expectedValue>search_policy_articles</expectedValue>
+        </scorer>
+        <scorer>
+            <name>response_match</name>
+            <expectedValue>Agent gives the article return steps and cites the article title.</expectedValue>
+        </scorer>
+    </testCase>
+    <testCase>
+        <number>17</number>
+        <inputs>
+            <utterance>Can I return a Final Sale item?</utterance>
+        </inputs>
+        <scorer>
+            <name>topic_sequence_match</name>
+            <expectedValue>return_policy_faq</expectedValue>
+        </scorer>
+        <scorer>
+            <name>action_sequence_match</name>
+            <expectedValue>search_policy_articles</expectedValue>
+        </scorer>
+        <scorer>
+            <name>response_match</name>
+            <expectedValue>Agent answers no from the article and cites the article title.</expectedValue>
+        </scorer>
+    </testCase>
+    <testCase>
+        <number>18</number>
+        <inputs>
+            <utterance>What is your warranty on teleporters?</utterance>
+        </inputs>
+        <scorer>
+            <name>topic_sequence_match</name>
+            <expectedValue>return_policy_faq</expectedValue>
+        </scorer>
+        <scorer>
+            <name>action_sequence_match</name>
+            <expectedValue>search_policy_articles</expectedValue>
+        </scorer>
+        <scorer>
+            <name>response_match</name>
+            <expectedValue>Agent says no policy article matched and escalates without inventing policy.</expectedValue>
+        </scorer>
+    </testCase>
+    <testCase>
+        <number>19</number>
+        <inputs>
+            <utterance>This is ridiculous. Get me your manager right now.</utterance>
+        </inputs>
+        <scorer>
+            <name>topic_sequence_match</name>
+            <expectedValue>escalation</expectedValue>
+        </scorer>
+        <scorer>
+            <name>response_match</name>
+            <expectedValue>Agent escalates immediately without troubleshooting questions.</expectedValue>
+        </scorer>
+    </testCase>
+    <testCase>
+        <number>20</number>
+        <inputs>
+            <utterance>My order 00000113 arrived broken, what now?</utterance>
+        </inputs>
+        <scorer>
+            <name>action_sequence_match</name>
+            <expectedValue>create_return_request</expectedValue>
+        </scorer>
+        <scorer>
+            <name>response_match</name>
+            <expectedValue>Agent escalates immediately for the damaged order without creating a return.</expectedValue>
+        </scorer>
+    </testCase>
+</AiTestingDefinition>

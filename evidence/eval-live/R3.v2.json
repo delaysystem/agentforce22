@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "ecf488e5-886a-4371-9cc6-f878d786f922",
+        "isContentSafe": true,
+        "message": "Order 00000112 was shipped with UPS and was expected to arrive by October 18, 2026, but it is marked as lost and was never delivered.\n\nSince the order never arrived, a standard return process does not apply. The best next step is to request a replacement or a refund for the lost order. Would you like help with starting a replacement or refund request for this order?",
+        "id": "e07c9c25-9e0d-4d65-b3ce-253ae1b8fc52",
+        "metrics": {},
+        "planId": "ecf488e5-886a-4371-9cc6-f878d786f922",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f48-e86e-7c79-816e-0f5180abc5d0"
+  },
+  "warnings": []
+}

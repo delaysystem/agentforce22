@@ -1,0 +1,22 @@
+{
+  "required" : [ "issueSummary" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "orderNumber" : {
+      "title" : "Order Number",
+      "description" : "The order number, if known. Empty when the customer never gave one.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "issueSummary" : {
+      "title" : "Issue Summary",
+      "description" : "One-line summary of the customer question plus what the agent already tried.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType",
+  "lightning:textIndexed" : true
+}

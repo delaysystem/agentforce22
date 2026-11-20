@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "0a6e1600-3c17-4946-a859-d60619140ff6",
+        "isContentSafe": true,
+        "message": "I could not find a published policy entry specifically about a warranty for teleporters. The available return policy information covers the return window, how to start a return, and which items cannot be returned. If you need details on warranties or have further questions, please let me know!",
+        "id": "d2c3cb0a-d514-4466-8fbd-672ac2f72fc8",
+        "metrics": {},
+        "planId": "0a6e1600-3c17-4946-a859-d60619140ff6",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18fa1-3531-7790-b853-de13f44f1451"
+  },
+  "warnings": []
+}

@@ -1,0 +1,22 @@
+{
+  "required" : [ ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "orderNumber" : {
+      "title" : "Order Number",
+      "description" : "The order number, e.g. 00000109. Preferred over accountId.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "accountId" : {
+      "title" : "Account ID",
+      "description" : "The customer account ID, used only when no order number is known. Returns the latest order.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType",
+  "lightning:textIndexed" : true
+}

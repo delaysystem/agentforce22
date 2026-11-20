@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "f6b64da1-ee0e-4f4f-b544-4a1a42c233ba",
+        "isContentSafe": true,
+        "message": "To help you start a return for order 00000109 before it arrives, could you please tell me which item from this order you would like to return and your reason for the return? This information is needed to check eligibility and begin the process.",
+        "id": "4e07b5e0-fd16-4cb2-bf58-8fa1969d8f8e",
+        "metrics": {},
+        "planId": "f6b64da1-ee0e-4f4f-b544-4a1a42c233ba",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18fa5-6cd3-77ce-8b6e-cec246393217"
+  },
+  "warnings": []
+}

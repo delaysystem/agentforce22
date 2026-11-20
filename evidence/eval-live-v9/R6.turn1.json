@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "8ec63091-0f51-44d0-a6ee-4969ba4a4322",
+        "isContentSafe": true,
+        "message": "I couldn't find order 00000999. Please check the order number and let me know if you have the correct one. If you need help finding your order number or have another question, I am here to help.",
+        "id": "badd628b-3dc9-4373-b565-deb004803b6d",
+        "metrics": {},
+        "planId": "8ec63091-0f51-44d0-a6ee-4969ba4a4322",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18fb2-66a4-7f80-b249-f5be6bbfb1fd"
+  },
+  "warnings": []
+}

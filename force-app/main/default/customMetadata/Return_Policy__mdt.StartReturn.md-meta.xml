@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <label>Start a Return</label>
+    <protected>false</protected>
+    <values>
+        <field>Answer__c</field>
+        <value xsi:type="xsd:string">DEMO: Share your order number, item, and reason. We check the 30-day window, then create your return with a reference number.</value>
+    </values>
+    <values>
+        <field>Keywords__c</field>
+        <value xsi:type="xsd:string">start return, begin return, create return, make a return, return process, how to return, How do I start a return</value>
+    </values>
+    <values>
+        <field>Title__c</field>
+        <value xsi:type="xsd:string">How do I start a return?</value>
+    </values>
+</CustomMetadata>

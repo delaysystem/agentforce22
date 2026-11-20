@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "7ec253eb-e9b3-486a-9048-69a614536292",
+        "isContentSafe": true,
+        "message": "To help you return order 00000999, I need a bit more information. Please tell me the name or description of the item you want to return from this order.",
+        "id": "9ea74992-8651-4128-8535-bd399dca5884",
+        "metrics": {},
+        "planId": "7ec253eb-e9b3-486a-9048-69a614536292",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18fa5-b88d-73d7-bded-9df406809437"
+  },
+  "warnings": []
+}

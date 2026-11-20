@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "08cd98b7-eb89-4495-8dbb-9e232a9e13e5",
+        "isContentSafe": true,
+        "message": "Thank you for your request. I will connect you with a manager right away. Please hold while I transfer you to a live agent. Is there anything specific you would like the manager to know before I transfer you?",
+        "id": "6cd302de-75f8-42de-879e-be46fb5c30a5",
+        "metrics": {},
+        "planId": "08cd98b7-eb89-4495-8dbb-9e232a9e13e5",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18fa7-555b-753e-bea5-0608902ac21f"
+  },
+  "warnings": []
+}

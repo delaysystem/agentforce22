@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "12be4be2-5794-45fe-afce-96ffd26fe9bc",
+        "isContentSafe": true,
+        "message": "You cannot start a return for order 00000109 until it has been delivered. Returns are only possible once the order is marked as delivered.\n\nWould you like to know how to track your order or get notified when it arrives so you can start the return process?",
+        "id": "b7940e9d-9b77-414d-9447-bb3abd6564ac",
+        "metrics": {},
+        "planId": "12be4be2-5794-45fe-afce-96ffd26fe9bc",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18fac-7ae0-7e23-87ae-3be926c9191a"
+  },
+  "warnings": []
+}

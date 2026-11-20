@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "c78c6759-66eb-42f3-88e4-057530106fd5",
+        "isContentSafe": true,
+        "message": "I can help you start a return for your broken item from order 00000113. Please tell me which item you want to return and a brief reason for the return (for example, \"item arrived broken\"). Once I have this information, I will check eligibility and begin the return process.",
+        "id": "235550a0-b78b-4c8f-896e-299133b8d00d",
+        "metrics": {},
+        "planId": "c78c6759-66eb-42f3-88e4-057530106fd5",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f3e-843f-7284-ab9a-fcb6c5f26150"
+  },
+  "warnings": []
+}

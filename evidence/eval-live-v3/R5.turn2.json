@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "bfba7406-0fc9-4a85-89f4-5445f7d8ca91",
+        "isContentSafe": true,
+        "message": "You cannot start a return for order 00000109 while it is still in transit. Returns can only be opened once the order has been delivered. As soon as you receive your jacket, you will be eligible to request a return.\n\nDo you have any other questions or need help with something else?",
+        "id": "d07630f0-bb96-4a7c-bb1c-8a63b2a63c90",
+        "metrics": {},
+        "planId": "bfba7406-0fc9-4a85-89f4-5445f7d8ca91",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f8c-a8a4-7266-9ddb-1603637d8196"
+  },
+  "warnings": []
+}

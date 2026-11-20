@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delivered_Date__c</fullName>
+    <description>Demo: actual delivery date; basis of the return-window check (Create Return Request flow). Falls back to EffectiveDate when empty. Test data only, not a client project.</description>
+    <externalId>false</externalId>
+    <label>Delivered Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

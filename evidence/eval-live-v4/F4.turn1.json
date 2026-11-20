@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "44da9e7c-062b-4298-9d1b-307322480fe0",
+        "isContentSafe": true,
+        "message": "I could not find a published policy entry regarding the warranty for teleporters. Would you like me to connect you with a human agent for further assistance?",
+        "id": "518a7344-67c0-49ac-913e-5a5214d04c0a",
+        "metrics": {},
+        "planId": "44da9e7c-062b-4298-9d1b-307322480fe0",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f94-ae01-72f6-8053-80909a7afba0"
+  },
+  "warnings": []
+}

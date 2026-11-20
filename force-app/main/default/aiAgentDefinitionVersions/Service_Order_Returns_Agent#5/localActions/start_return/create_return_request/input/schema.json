@@ -1,0 +1,29 @@
+{
+  "required" : [ "orderNumber", "itemDescription", "reason" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "orderNumber" : {
+      "title" : "Order Number",
+      "description" : "The order number to return from, e.g. 00000110.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "itemDescription" : {
+      "title" : "Item",
+      "description" : "The item being returned, e.g. DEMO Solar Panel Mini.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "reason" : {
+      "title" : "Reason",
+      "description" : "The reason for the return in the customer's words.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType",
+  "lightning:textIndexed" : true
+}

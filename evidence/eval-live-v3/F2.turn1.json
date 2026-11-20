@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "8b3e1b64-66af-4f0b-ad97-b447fa37758d",
+        "isContentSafe": true,
+        "message": "To start a return, I will need your order number, the item you want to return, and the reason for the return. Can you provide these details?",
+        "id": "86839331-2ccd-4c7e-b34d-8b0e8c5e95ab",
+        "metrics": {},
+        "planId": "8b3e1b64-66af-4f0b-ad97-b447fa37758d",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f89-fa97-7e7e-a53a-27361bbaaa2e"
+  },
+  "warnings": []
+}

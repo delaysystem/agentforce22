@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "7fe29f03-859a-4f9a-8faa-6e7cb73c1114",
+        "isContentSafe": true,
+        "message": "You have 30 days from delivery to start a return. Items must be unused and in their original packaging. (Source: What is the return window?)\n\nIs there anything else you would like to know about returns?",
+        "id": "a8d00ec7-0fe3-487a-9dde-d793972445f4",
+        "metrics": {},
+        "planId": "7fe29f03-859a-4f9a-8faa-6e7cb73c1114",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18fa6-0fe7-712d-a3ae-3a82f514b5e7"
+  },
+  "warnings": []
+}

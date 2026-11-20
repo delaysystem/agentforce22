@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "2b4f30b6-dc5c-433a-abff-b3fb896f09c4",
+        "isContentSafe": true,
+        "message": "I am unable to access the warranty information for teleporters at this time. Would you like help with a different return or warranty question?",
+        "id": "8bc6b783-3126-46d3-a229-2ba8341596e0",
+        "metrics": {},
+        "planId": "2b4f30b6-dc5c-433a-abff-b3fb896f09c4",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f3d-ee87-7d10-8bb5-e6cac938f6ff"
+  },
+  "warnings": []
+}

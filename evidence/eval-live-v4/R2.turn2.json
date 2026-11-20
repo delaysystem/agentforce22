@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "c66ff2ad-1df3-4c67-81cd-3e46f0c01a71",
+        "isContentSafe": true,
+        "message": "The toaster from order 00000111 was delivered 76 days ago, which is past the 30-day return window. Because of this, I am escalating your request to a human agent for further assistance.\n\nWould you like me to connect you now, or do you have any other questions about returns?",
+        "id": "c2cbcb30-b04d-4861-adb8-1e73ec51c134",
+        "metrics": {},
+        "planId": "c66ff2ad-1df3-4c67-81cd-3e46f0c01a71",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f92-6427-7c04-b225-7c0696afa0f2"
+  },
+  "warnings": []
+}

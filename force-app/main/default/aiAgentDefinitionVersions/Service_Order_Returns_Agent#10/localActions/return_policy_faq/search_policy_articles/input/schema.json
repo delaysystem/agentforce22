@@ -1,0 +1,15 @@
+{
+  "required" : [ "searchTerms" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "searchTerms" : {
+      "title" : "Search Terms",
+      "description" : "The customer's FULL policy question, word for word.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType",
+  "lightning:textIndexed" : true
+}

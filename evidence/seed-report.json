@@ -1,0 +1,73 @@
+{
+  "seedRun": "evidence/seed-001.log",
+  "seededAt": "2026-10-30",
+  "account": {
+    "name": "DEMO Test Customer - Agent Demo",
+    "id": "001gK00001ildvKQAQ"
+  },
+  "orders": [
+    {
+      "orderNumber": "00000109",
+      "scenario": "in-transit",
+      "shipmentStatus": "In Transit",
+      "carrier": "UPS"
+    },
+    {
+      "orderNumber": "00000110",
+      "scenario": "delivered-in-window",
+      "shipmentStatus": "Delivered",
+      "carrier": "FedEx",
+      "deliveredDaysAgo": 10
+    },
+    {
+      "orderNumber": "00000111",
+      "scenario": "delivered-out-of-window",
+      "shipmentStatus": "Delivered",
+      "carrier": "DHL",
+      "deliveredDaysAgo": 75
+    },
+    {
+      "orderNumber": "00000112",
+      "scenario": "lost-must-escalate",
+      "shipmentStatus": "Lost",
+      "carrier": "UPS"
+    },
+    {
+      "orderNumber": "00000113",
+      "scenario": "damaged-must-escalate",
+      "shipmentStatus": "Damaged",
+      "carrier": "FedEx"
+    },
+    {
+      "orderNumber": "00000114",
+      "scenario": "final-sale-not-returnable",
+      "shipmentStatus": "Delivered",
+      "carrier": "USPS",
+      "deliveredDaysAgo": 5,
+      "productFamily": "Final Sale"
+    },
+    {
+      "orderNumber": "00000115",
+      "scenario": "processing-not-shipped",
+      "shipmentStatus": "Processing",
+      "carrier": null
+    }
+  ],
+  "articles": [
+    {
+      "title": "DEMO: What is the return window?",
+      "knowledgeArticleId": "kA0gK000001G9zeSAC",
+      "publishStatus": "Online"
+    },
+    {
+      "title": "DEMO: How do I start a return?",
+      "knowledgeArticleId": "kA0gK000001G9zdSAC",
+      "publishStatus": "Online"
+    },
+    {
+      "title": "DEMO: Which items cannot be returned?",
+      "knowledgeArticleId": "kA0gK000001G9zfSAC",
+      "publishStatus": "Online"
+    }
+  ]
+}

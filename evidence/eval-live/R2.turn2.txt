@@ -1,0 +1,10 @@
+# R2 turn 2 (same session 01a18f33-b95c-71e7-89d7-442480b0bcb8), observed 2026-10-30
+
+Customer: "The item is a toaster, I changed my mind."
+Agent [Inform]: "I am connecting you with a live agent who can assist you further
+with your return request for the toaster. Please hold on while I transfer your
+conversation."
+
+Note: escalated with no return created (zero Return_Request__c rows for
+order 00000111, verified by query), but the transfer message does not quote
+the 30-day window. Scored ESCALATED with that caveat.

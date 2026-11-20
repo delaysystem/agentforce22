@@ -1,0 +1,191 @@
+# NGT test spec for the Service Order Returns Agent (Agentforce Studio runner).
+# Schema derived from @salesforce/cli v2.150.6 agentTest.js + test-spec.js
+# (subjectType AGENT, testCases with inputs/scorers). POST-PUBLISH:
+# verify subjectName and the topic/action DeveloperNames against the retrieved
+# GenAiPlugin/GenAiFunction metadata, then run:
+#   sf agent test create --spec specs/Service_Order_Returns_Agent-ngtTestSpec.yaml --test-runner agentforce-studio
+#   sf agent test run ...
+# One case per scripted conversation in tests/conversations/.
+# Case 5 asserts the ask-for-number turn only: the CLI serializer drops `topic`
+# on user-role history turns while the server requires it, so multi-turn
+# history cannot deploy via CLI; the full S5 script runs in live preview.
+name: Service_Order_Returns_Demo_Test
+description: Demo org, test data only. 20 scripted conversations.
+subjectType: AGENT
+subjectName: Service_Order_Returns_Agent
+subjectVersion: v1
+testCases:
+  - inputs:
+      - utterance: Where is my order 00000109?
+    scorers:
+      - name: topic_sequence_match
+        expected: order_status
+      - name: action_sequence_match
+        expected: get_order_details
+      - name: response_match
+        expected: Agent answers In Transit via UPS with the delivery estimate and tracking text.
+  - inputs:
+      - utterance: Has order 00000110 arrived?
+    scorers:
+      - name: topic_sequence_match
+        expected: order_status
+      - name: action_sequence_match
+        expected: get_order_details
+      - name: response_match
+        expected: Agent confirms the order was delivered by FedEx with the delivered date.
+  - inputs:
+      - utterance: Can you track order 00000115 for me?
+    scorers:
+      - name: topic_sequence_match
+        expected: order_status
+      - name: action_sequence_match
+        expected: get_order_details
+      - name: response_match
+        expected: Agent says the order is still processing without inventing a carrier or tracking link.
+  - inputs:
+      - utterance: What is the status of order 00000999?
+    scorers:
+      - name: topic_sequence_match
+        expected: order_status
+      - name: action_sequence_match
+        expected: get_order_details
+      - name: response_match
+        expected: Agent plainly says the order was not found and asks to check the number.
+  - inputs:
+      - utterance: Where is my package?
+    scorers:
+      - name: topic_sequence_match
+        expected: order_status
+      - name: response_match
+        expected: Agent asks for the order number without calling any action or inventing order data.
+  - inputs:
+      - utterance: When will order 00000109 arrive?
+    scorers:
+      - name: topic_sequence_match
+        expected: order_status
+      - name: action_sequence_match
+        expected: get_order_details
+      - name: response_match
+        expected: Agent gives the expected delivery date from the record.
+  - inputs:
+      - utterance: Who delivered my order 00000110?
+    scorers:
+      - name: topic_sequence_match
+        expected: order_status
+      - name: action_sequence_match
+        expected: get_order_details
+      - name: response_match
+        expected: Agent names FedEx as the carrier.
+  - inputs:
+      - utterance: Is order 00000111 still on its way?
+    scorers:
+      - name: topic_sequence_match
+        expected: order_status
+      - name: action_sequence_match
+        expected: get_order_details
+      - name: response_match
+        expected: Agent says the order was already delivered with its date.
+  - inputs:
+      - utterance: I want to return the solar panel from order 00000110, it arrived scratched.
+    scorers:
+      - name: topic_sequence_match
+        expected: start_return
+      - name: action_sequence_match
+        expected: create_return_request
+      - name: response_match
+        expected: Agent creates the return and gives the exact reference number from the action.
+  - inputs:
+      - utterance: I would like to return order 00000111, I changed my mind.
+    scorers:
+      - name: topic_sequence_match
+        expected: start_return
+      - name: action_sequence_match
+        expected: create_return_request
+      - name: response_match
+        expected: Agent explains the 30-day window and escalates without creating a return.
+  - inputs:
+      - utterance: Order 00000112 never arrived, I want to return it.
+    scorers:
+      - name: topic_sequence_match
+        expected: start_return
+      - name: action_sequence_match
+        expected: create_return_request
+      - name: response_match
+        expected: Agent escalates immediately for the lost order without creating a return.
+  - inputs:
+      - utterance: Can I return the display stand from order 00000114?
+    scorers:
+      - name: topic_sequence_match
+        expected: start_return
+      - name: action_sequence_match
+        expected: create_return_request
+      - name: response_match
+        expected: Agent explains Final Sale items cannot be returned and escalates without creating.
+  - inputs:
+      - utterance: I want to return order 00000109 before it arrives.
+    scorers:
+      - name: topic_sequence_match
+        expected: start_return
+      - name: action_sequence_match
+        expected: create_return_request
+      - name: response_match
+        expected: Agent explains returns open once the order is delivered and creates nothing.
+  - inputs:
+      - utterance: Please return order 00000999, it is broken.
+    scorers:
+      - name: topic_sequence_match
+        expected: start_return
+      - name: action_sequence_match
+        expected: create_return_request
+      - name: response_match
+        expected: Agent plainly says the order was not found and creates nothing.
+  - inputs:
+      - utterance: What is the return window?
+    scorers:
+      - name: topic_sequence_match
+        expected: return_policy_faq
+      - name: action_sequence_match
+        expected: search_policy_articles
+      - name: response_match
+        expected: Agent answers 30 days from delivery and cites the article title.
+  - inputs:
+      - utterance: How do I start a return?
+    scorers:
+      - name: topic_sequence_match
+        expected: return_policy_faq
+      - name: action_sequence_match
+        expected: search_policy_articles
+      - name: response_match
+        expected: Agent gives the article return steps and cites the article title.
+  - inputs:
+      - utterance: Can I return a Final Sale item?
+    scorers:
+      - name: topic_sequence_match
+        expected: return_policy_faq
+      - name: action_sequence_match
+        expected: search_policy_articles
+      - name: response_match
+        expected: Agent answers no from the article and cites the article title.
+  - inputs:
+      - utterance: What is your warranty on teleporters?
+    scorers:
+      - name: topic_sequence_match
+        expected: return_policy_faq
+      - name: action_sequence_match
+        expected: search_policy_articles
+      - name: response_match
+        expected: Agent says no policy article matched and escalates without inventing policy.
+  - inputs:
+      - utterance: This is ridiculous. Get me your manager right now.
+    scorers:
+      - name: topic_sequence_match
+        expected: escalation
+      - name: response_match
+        expected: Agent escalates immediately without troubleshooting questions.
+  - inputs:
+      - utterance: My order 00000113 arrived broken, what now?
+    scorers:
+      - name: action_sequence_match
+        expected: create_return_request
+      - name: response_match
+        expected: Agent escalates immediately for the damaged order without creating a return.

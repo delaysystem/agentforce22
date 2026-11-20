@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "66302cfa-44ce-4283-8ec9-5e9e39e9d530",
+        "isContentSafe": true,
+        "message": "According to the policy entry \"Which items cannot be returned?\", Final Sale items cannot be returned. If you believe there is an error with your order, you can request assistance from a human agent.\n\nDo you have any other questions about returns or need help with a specific order?",
+        "id": "737c203c-5dff-4012-a5d8-4b0349580b6c",
+        "metrics": {},
+        "planId": "66302cfa-44ce-4283-8ec9-5e9e39e9d530",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18fb8-4e94-7977-a531-33c46edcb4d0"
+  },
+  "warnings": []
+}

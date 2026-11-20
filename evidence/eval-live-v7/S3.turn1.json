@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "c653e1a7-c017-40d8-9d0f-9483cadf74e0",
+        "isContentSafe": true,
+        "message": "Order 00000115 is currently in draft status and is being processed. There is no carrier or delivery estimate available yet because the order has not been shipped. Do you have any other questions about this order or another one you'd like to track?",
+        "id": "15fcfb6d-20b0-4eb9-97ea-715690ab116d",
+        "metrics": {},
+        "planId": "c653e1a7-c017-40d8-9d0f-9483cadf74e0",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18fa2-4f89-7c88-895a-262e8e81e574"
+  },
+  "warnings": []
+}

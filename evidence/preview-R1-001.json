@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "f3f63456-4539-4fe2-846a-36b69e49223a",
+        "isContentSafe": true,
+        "message": "There was an issue processing your return request due to a system error. I am unable to complete the return right now.\n\nWould you like me to connect you with a live agent for further assistance, or would you prefer to try again later?",
+        "id": "b1ec1840-2248-4981-b0e3-c4aa6248c8cf",
+        "metrics": {},
+        "planId": "f3f63456-4539-4fe2-846a-36b69e49223a",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f23-ca31-7309-94d3-2a4e502f02a6"
+  },
+  "warnings": []
+}

@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "9a5a3d88-d8e8-42b9-ab8a-deaabc8454da",
+        "isContentSafe": true,
+        "message": "I can help you start a return for order 00000109. Could you please tell me which item from this order you want to return and the reason for the return? This information is needed to check eligibility and create your return request.",
+        "id": "344a454a-973a-49fd-9ca4-d0fba2eef749",
+        "metrics": {},
+        "planId": "9a5a3d88-d8e8-42b9-ab8a-deaabc8454da",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18f93-3db9-7a21-af0e-1031e267856a"
+  },
+  "warnings": []
+}

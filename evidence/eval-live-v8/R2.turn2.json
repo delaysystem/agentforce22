@@ -1,0 +1,21 @@
+{
+  "status": 0,
+  "result": {
+    "messages": [
+      {
+        "type": "Inform",
+        "feedbackId": "689a1de8-6d0a-423f-ae17-e987b94fe871",
+        "isContentSafe": true,
+        "message": "The toaster from order 00000111 is not eligible for return because it was delivered 76 days ago, which is outside the 30-day return window. I will escalate this to a human agent for further assistance.\n\nWould you like to continue with an agent, or do you have any other questions about your orders?",
+        "id": "bd44468b-41b0-450f-9d2e-deb79290176c",
+        "metrics": {},
+        "planId": "689a1de8-6d0a-423f-ae17-e987b94fe871",
+        "result": [],
+        "citedReferences": []
+      }
+    ],
+    "agentApiName": "Service_Order_Returns_Agent",
+    "sessionId": "01a18fad-5f73-7e35-a11b-e56a148544bf"
+  },
+  "warnings": []
+}
